@@ -1,5 +1,5 @@
 int p0=2,p1=3,p2=4,p3=5,p4=6,p5=7,p6=8,p7=9,p8=10,p9=11;
-int dt=2000;
+int dt=1000;
 int last=2000;
 void setup() {
   // put your setup code here, to run once:
