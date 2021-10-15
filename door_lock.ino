@@ -15,7 +15,7 @@ void loop() {
   ultrasonic();
   myservo.write(0);
   if(distanceCm<=50.0){
- for (pos = 0; pos <= 90; pos+=1) { 
+ for (pos = 0; pos <= 90; pos+=10) { 
     myservo.write(pos);             
       delay(10);                 
   }
